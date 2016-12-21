@@ -27,7 +27,7 @@ Steps:
 
 touch Gemfile.lock
 
-5.Create the docker-compose.yml file and Connect the database
+#### 5.Create the docker-compose.yml file and Connect the database
 
 development: &default
   adapter: postgresql
@@ -44,15 +44,15 @@ test:
 
 **Notice the host is db. When we linked the containers in our docker-compose.yml file our web container can access our db container using the hostname db.**
 
-6.Create the database
+#### 6.Create the database
 
 	docker-compose run web rake db:create
 
-7.Run docker-compose up to start the server
+#### 7.Run docker-compose up to start the server
 
 	docker-compose up -d
 
-8.See your view
+#### 8.See your view
 
 If you're running docker-machine, you can find your machine's IP address by running:
 
