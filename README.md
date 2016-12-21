@@ -46,11 +46,11 @@ test:
 
 6.Create the database
 
-	## docker-compose run web rake db:create
+	#### docker-compose run web rake db:create
 
 7.Run docker-compose up to start the server
 
-	## docker-compose up -d
+	#### docker-compose up -d
 
 8.See your view
 
