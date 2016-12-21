@@ -21,7 +21,7 @@ Steps:
 	RUN bundle install
 	ADD . /demo_app
 
-4. Create an empty Gemfile.lock
+4.Create an empty Gemfile.lock
 
 The Gemfile.lock file is where the bundler will record the exact versions of the packages that were installed. You must add this file in order for the image to be built properly.
 
