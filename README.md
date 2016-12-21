@@ -1,4 +1,4 @@
-# H1 Docker Installation Ubuntu 16.04(64bit)& Setup with Rails Application
+# Docker Installation Ubuntu 16.04(64bit)& Setup with Rails Application
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-16-04
 
