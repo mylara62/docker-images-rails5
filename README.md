@@ -4,11 +4,11 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 
 Steps:
 
-#### 1.Setup Docker in your local system
+#### 1. Setup Docker in your local system
 
-2.Generate Rails Repo
+#### 2. Generate Rails Repo
 
-3.Create Dockerfile
+#### 3. Create Dockerfile
 	
 	FROM ruby:2.3.1
 	RUN apt-get update -qq
@@ -21,7 +21,7 @@ Steps:
 	RUN bundle install
 	ADD . /demo_app
 
-4.Create an empty Gemfile.lock
+#### 4. Create an empty Gemfile.lock
 
 **The Gemfile.lock file is where the bundler will record the exact versions of the packages that were installed. You must add this file in order for the image to be built properly.**
 
