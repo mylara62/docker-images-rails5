@@ -4,7 +4,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 
 Steps:
 
-1.Setup Docker in your local system
+#### 1.Setup Docker in your local system
 
 2.Generate Rails Repo
 
@@ -46,11 +46,11 @@ test:
 
 6.Create the database
 
-	#### docker-compose run web rake db:create
+	docker-compose run web rake db:create
 
 7.Run docker-compose up to start the server
 
-	#### docker-compose up -d
+	docker-compose up -d
 
 8.See your view
 
